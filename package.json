@@ -1,0 +1,41 @@
+{
+  "name": "exercise",
+  "version": "1.0.0",
+  "description": "backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afrizalsofyan/exercise.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express"
+  ],
+  "author": "rizaldev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/afrizalsofyan/exercise/issues"
+  },
+  "homepage": "https://github.com/afrizalsofyan/exercise#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cloudinary": "^1.31.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.2",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.5-lts.1",
+    "multer-storage-cloudinary": "^4.0.0",
+    "pg": "^8.8.0",
+    "prisma": "^4.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.23.0",
+    "nodemon": "^2.0.19"
+  }
+}
